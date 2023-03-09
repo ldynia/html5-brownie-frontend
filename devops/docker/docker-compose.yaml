@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  app:
+    container_name: brownie
+    image: brownie
+    build:
+      context: ../../
+      dockerfile: devops/docker/app.Dockerfile
+      args:
+        FLASK_DEBUG: "True"
+    ports:
+      - "5000:5000"

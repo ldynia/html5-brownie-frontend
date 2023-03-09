@@ -1,0 +1,16 @@
+__pycache__
+.cache
+.coverage
+.coverage.*
+.git
+.mypy_cache
+.pytest_cache
+.Python
+.tox
+*.log
+*.md
+*.pyc
+*.pyd
+*.pyo
+LICENSE
+venv

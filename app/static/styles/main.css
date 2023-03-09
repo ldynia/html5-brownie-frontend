@@ -1,0 +1,28 @@
+body {
+  background: #0d110d;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: -4px;
+}
+
+figcaption {
+  background: rgba(102, 0, 0);
+  color: white;
+  font-family: "Verdana";
+  font-size: 16pt;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  position: flex;
+  text-align: center;
+}
